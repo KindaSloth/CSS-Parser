@@ -1,0 +1,18 @@
+html {
+    line-height: 1.15;
+    color: blue;
+}
+
+.container {
+    width: 100%;
+}
+
+.cu, .pika {
+    color: red;
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
